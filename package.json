@@ -1,0 +1,22 @@
+{
+    "name": "opener",
+    "description": "Opens stuff, like webpages and files and executables, cross-platform",
+    "version": "1.2.0",
+    "author": "",
+    "license": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/drylikov/opener.git"
+    },
+    "bugs": {
+        "url": "http://github.com/drylikov/opener/issues"
+    },
+    "main": "opener.js",
+    "bin": "opener.js",
+    "scripts": {
+        "lint": "jshint opener.js --show-non-errors"
+    },
+    "devDependencies": {
+        "jshint": ">= 0.7.3"
+    }
+}
